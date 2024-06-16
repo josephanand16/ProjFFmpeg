@@ -13,3 +13,19 @@ This project will be split in two parts. Audio and Video.
 ## Video
 1. Convert large old DVD MOV formats to encoded h264 or h265.
 2. Change all of the containers from mpeg-4, avi, mov to MKV.
+
+## Setup
+
+1. Clone and build FFMPEG
+   https://github.com/FFmpeg/FFmpeg.git
+    ./configure
+    make
+    make install
+2. Install the following packages
+   apt-get install yasm
+   apt-get install zlib1g-dev
+   apt-get install libdrm-dev
+   apt-get install libopus-dev
+
+   
+   
